@@ -1,0 +1,11 @@
+﻿<!-- EditEntryDialog.xaml -->
+<Window x:Class="WpfApp.EditEntryDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Entry" Height="150" Width="300">
+    <StackPanel>
+        <Label Content="Edit Text:"/>
+        <TextBox x:Name="editTextBox" Width="200" Height="30"/>
+        <Button Content="OK" Width="80" Height="30" Click="OkButton_Click"/>
+    </StackPanel>
+</Window>
